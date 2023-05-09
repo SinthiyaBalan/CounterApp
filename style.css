@@ -22,6 +22,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 .container{
 
@@ -29,8 +30,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    /* border: .5px solid black; */
+    gap: 20px;
+    background-color: black;
+    padding: 10px;
+    height: 50%;
+    width: 30%;
+    border-radius: 5px;
 }
 
 .buttons_wrapper{
@@ -38,24 +43,32 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 
 
 .btn{
 
-    width: 60px;
+    width: 40px;
     height: 20px;
-    background-color: gray;
+    background-color: rgb(215, 215, 107);
+    border-radius: 5px;
+    font-size: 10px;
 }
 
 .red{
 
     background-color: tomato;
+    font-size: 15px;
 }
 
 .green{
 
     background-color: green;
+    font-size: 15px;
+}
+
+.heading{
+    color: white;
 }
